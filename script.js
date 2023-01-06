@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "Which company owns  AWS Certified Global Community?",
+        question: "Which company is the leading Cloud Computing Service Provider?",
         a: "AWS",
         b: "Google",
         c: "Azure",
@@ -8,9 +8,9 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "Who is the current CEO that company(2022)?",
+        question: "Who is the current CEO that company(2023)?",
         a: "Jeff Bezoz",
-        b: "Andy Jassy",
+        b: "Adam Selipsky",
         c: "Sundar Pichai",
         d: "Satya Nadella",
         correct: "b",
@@ -83,7 +83,7 @@ submitBtn.addEventListener("click", () => {
 
     if (answer) {
         if (answer === quizData[currentQuiz].correct) {
-            score;
+            score++;
         }
 
         currentQuiz++;
