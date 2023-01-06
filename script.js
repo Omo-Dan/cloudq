@@ -31,6 +31,14 @@ const quizData = [
         d: "none of the above",
         correct: "c",
     },
+	{
+        question: "Which one is not an associate level certification for the company?",
+        a: "Cloud Practitioner",
+        b: "Solutions Architect",
+        c: "Developer",
+        d: "SysOPs",
+        correct: "a",
+    },
 ];
 
 const quiz = document.getElementById("quiz");
